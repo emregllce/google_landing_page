@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+    width: 100%;
+}
+header{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+    font-size: 13px;
+}
+a:hover{
+    text-decoration: underline;
+}
+#appicon{
+    opacity: 0.5;
+    vertical-align: middle;
+}
+#appicon:hover{
+    opacity: 1;
+}
+#signin{
+    color: white;
+    background-color: #4285f4;
+    border: none;
+    height: 30px;
+    width: 70px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+#headerLeft{
+    float: left;
+    opacity: 0.8;
+    
+}
+#headerRight{
+    float: right;
+    
+}
+
+.clear {
+    clear: both;
+  }
+#googleLogo{
+    height: 95px;
+    width: 272px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+#searchBar{
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 60px;
+}
+#searchbar{
+    font-size: 16px;
+    height: 48px;
+    width: 520px;
+    border-radius: 25px;
+    padding: 3px;
+    border: 1px solid lightgray;
+    padding-left: 50px;
+}
+#searchbar:hover{
+    box-shadow: 3px 3px 5px lightgray;
+}
+#searchbar:focus{
+    outline: 0;
+}
+input {
+    width: 200px;
+  }
+#microphone{
+    position: relative;
+    top: 5px;
+    right: 74px;
+    height: 20px;
+}
+#glass{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 5px;
+    right: 500px;
+    opacity: 0.4;
+}
+#buttons{
+    text-align: center;
+    padding-top: 30px;
+}
+#GS{
+    height: 36px;
+    width: 120px;
+    border: hidden;
+    border-radius: 4px;
+    color: #5f6368;
+    margin-right: 8px;
+}
+#FL{
+    height: 36px;
+    width: 140px;
+    border: hidden;
+    border-radius: 4px;
+    color: #5f6368;  
+}
+#otherLang{
+    text-align: center;
+    margin-top: 20px;
+    font-size: small;
+}
+#english{
+    color: navy;
+}
+
+footer {
+    width: 100%;
+    padding-left: 5px;
+    background-color: #f2f2f2;
+    line-height: 40px;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 10px;
+}
+.footerLinks{
+    text-decoration: none;
+    color: #5f6368;
+    opacity: 0.8;
+}
+
+#footerLeft{
+    float: left;
+    
+}
+#footerRight{
+    float: right;
+    margin-right: 25px;
+}
+.Turkey{
+    border-bottom: 1px solid #e4e4e4;
+    margin-left: 13px;
+    color: #5f6368;
+}
